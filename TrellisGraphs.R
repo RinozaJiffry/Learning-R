@@ -31,3 +31,6 @@ install.packages("lattice")
 library(lattice)
 
 histogram(~incubation_period | factor(exposure_cat), data = dis_dat)
+
+# Using plot generic function
+plot(incubation_period ~ factor(exposure_cat), data = dis_dat)
