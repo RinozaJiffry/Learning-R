@@ -1,6 +1,9 @@
 # The distance travelled by cars with plotted with their speed
 plot(cars$dist ~ cars$speed)
 
+# Another symbol of scatter plot
+plot(cars$dist ~ cars$speed, pch = 3)
+
 
 # To get better look graph
 plot(cars$dist ~  cars$speed, # y ~ x
