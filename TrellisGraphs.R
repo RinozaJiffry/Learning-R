@@ -34,3 +34,6 @@ histogram(~incubation_period | factor(exposure_cat), data = dis_dat)
 
 # Using plot generic function
 plot(incubation_period ~ factor(exposure_cat), data = dis_dat)
+
+## If we remove the vector part same visualization part change to scatter plot
+plot(incubation_period ~ exposure_cat, data = dis_dat)
